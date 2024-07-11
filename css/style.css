@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	background-image: url("../slike/slika1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+.container {
+	height: 400px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	margin: 10px;
+}
+.flex {
+	display: flex;
+	gap: 20px;
+}
+.product {
+	height: 400px;
+	font-family: "Montserrat", sans-serif;
+}
+.product img {
+	width: 100%;
+}
+.textCss {
+	color: red;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+}
+.productFooter {
+	justify-content: space-between;
+	color: red;
+	align-items: center;
+	display: flex;
+}
+.font {
+	font-family: "Lato", sans-serif;
+}
